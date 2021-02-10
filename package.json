@@ -1,0 +1,20 @@
+{
+  "name": "javascript-code-challenges",
+  "version": "1.0.0",
+  "description": "This project contains folders for online code challenges from:- 1. CodeWars 2. Edabit 3. LeetCodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmh247365/javascript-code-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmh247365/javascript-code-challenges/issues"
+  },
+  "homepage": "https://github.com/dmh247365/javascript-code-challenges#readme",
+}
