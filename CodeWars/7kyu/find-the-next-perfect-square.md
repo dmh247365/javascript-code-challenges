@@ -25,7 +25,8 @@ Finally we can use either a `conditional (ternary) operator` or an `if statement
 
 
 #### Solution 1
-We use the ternary operator, `condition` ? `expression if truthy` : `expression if falsy`.
+We can use the ternary operator:-  
+ `condition` ? `expression if truthy` : `expression if falsy`.
 
 We can use the `Modulus` arithmetic operator, ie:-  
  * 1.5 % 1 --> 0.5 which is truthy
