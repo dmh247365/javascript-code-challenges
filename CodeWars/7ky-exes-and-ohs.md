@@ -1,9 +1,9 @@
-## 7kyu Exes and Ohs
+## 7kyu - Exes and Ohs
 
 ### Question
 Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.
 
-Exmaples input/output:
+#### Examples input/output:
 
 ```js
 XO("ooxx") => true
@@ -18,7 +18,7 @@ XO("zzoo") => false
 ### Approach
 We need to standardize the input, ie make it all the same case, we can either use `regex` or function such as `toLowerCase()`.
 
-We then want an array with the 'x's and one with the 'y's and we can then simple use a comparison of their respective lengths.
+We then want an array with the 'x's and one with the 'y's and we can then simple use a comparison of their respective lengths.  
 
 #### Solution 1
 
@@ -33,11 +33,11 @@ We need to guard against risk of `null` for the returned value of `str.match(reg
 
 #### Solution 2
 
-Use `toLowerCase` method to convert string.  
+Use `toLowerCase` method to convert the string.  
 
-Use `split()` method to create an array of the individual characters in the string.
+Use `split()` method, passing in `''` to create an array of the individual characters in the string.
 
-Use `filter` method to create a new array of 'x's or 'y's, we don't have to worry about `null` as even if no elements are passed in, we will just have a blank array, so `.length` would just be zero.
+Use `filter` method to create a new array of 'x's or 'y's, we don't have to worry about `null` as even if no elements are passed in, we will just have a blank array, so `array.length` would just return `0`.
 
 
 
