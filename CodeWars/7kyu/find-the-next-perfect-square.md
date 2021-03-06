@@ -23,6 +23,9 @@ The `Math.pow()` method will return the square of what is passed in.
 Finally we can use either a `conditional (ternary) operator` or an `if statement` to validate the argument has an integer and if so return the next one.
 
 
+#### To run solutions
+just navigate to the relevant folder and type $node <filename>
+
 
 #### Solution 1
 We can use the ternary operator:-  

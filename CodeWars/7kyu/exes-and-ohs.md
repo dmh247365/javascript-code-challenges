@@ -20,6 +20,10 @@ We need to standardize the input, ie make it all the same case, we can either us
 
 We then want an array with the 'x's and one with the 'y's and we can then simple use a comparison of their respective lengths.  
 
+#### To run solutions
+just navigate to the relevant folder and type $node <filename>
+
+
 #### Solution 1
 
 Use `str.match(regexp)` will return an array of results, if no matches are found then `null` will be returned.  
